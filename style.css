@@ -1,0 +1,87 @@
+.whitekey {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+  height : 320px;
+  width: 80px;
+  border: solid; 2px;
+  background-color: rgb(246, 241, 241);
+  border-radius: 6px 6px 22px 22px;
+  position:relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.octave, .keyboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.blackkey {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 0px;
+  height : 240px;
+  width: 48px;
+  border: solid; 2px;
+  background-color: black;
+  border-radius: 6px 6px 22px 22px;
+  position:absolute;
+  z-index: 2;
+  cursor: pointer;
+  }
+
+.whiteclicked {
+  background-color: rgb(210, 210, 210);
+  }
+
+.blackclicked {
+  background-color: rgb(50, 50, 50);
+  }
+
+.displaynone {
+  display: none;
+  }
+
+.blackpos1DOD {
+  left: 67px;
+  }
+
+.blackpos1RED {
+  left: 152px;
+  }
+
+.blackpos1FAD {
+  left: 319px;
+  }
+
+.blackpos1SOLD {
+  left: 403px;
+  }
+
+.blackpos1LAD {
+  left: 487px;
+  }
+
+.blackpos2DOD {
+  left: 655px;
+  }
+
+.blackpos2RED {
+  left: 740px;
+  }
+
+.blackpos2FAD {
+  left: 908px;
+  }
+
+.blackpos2SOLD {
+  left: 992px;
+  }
+
+.blackpos2LAD {
+  left: 1075px;
+  }

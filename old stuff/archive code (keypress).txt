@@ -1,0 +1,51 @@
+  $(window).keydown(function(e) {
+    console.log(e.keyCode);
+    if (e.keyCode === 63) {
+    ion.sound.play("200");
+    $("#2DO").addClass("whiteclicked");
+    setTimeout(function(){
+      $("#2DO").removeClass("whiteclicked");
+      } ,200);
+      }
+    });
+
+
+  $(window).keydown(function(e) {
+    if (e.keyCode === 87) {
+    ion.sound.play("205");
+    $("#2DOD").addClass("blackclicked");
+    setTimeout(function(){
+      $("#2DOD").removeClass("blackclicked");
+      } ,200);
+      }
+      });
+
+  $(window).keydown(function(e) {
+    if (e.keyCode === 83) {
+    ion.sound.play("210");
+    $("#2RE").addClass("whiteclicked");
+    setTimeout(function(){
+      $("#2RE").removeClass("whiteclicked");
+      } ,200);
+      }
+      });
+
+  $(window).keydown(function(e) {
+    if (e.keyCode === 88) {
+    ion.sound.play("215");
+    $("#2RED").addClass("blackclicked");
+    setTimeout(function(){
+      $("#2RED").removeClass("blackclicked");
+      } ,200);
+      }
+      });
+
+  $(window).keydown(function(e) {
+    if (e.keyCode === 68) {
+    ion.sound.play("220");
+    $("#2MI").addClass("whiteclicked");
+    setTimeout(function(){
+      $("#2MI").removeClass("whiteclicked");
+      } ,200);
+      }
+      });

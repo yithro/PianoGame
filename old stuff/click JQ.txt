@@ -1,0 +1,41 @@
+
+
+  $("#2DO").click(function(){
+      ion.sound.play("200");
+      });
+
+
+  $("#2DO").click(function(){
+      ion.sound.play("200");
+      });
+
+  $("#2DO").click(function(){
+    $("#2DO").addClass("whiteclicked");
+    setTimeout(function(){
+      $("#2DO").removeClass("whiteclicked");
+      } ,200);
+    });
+
+  $("#2DOD").click(function(){
+    $("#2DOD").addClass("blackclicked");
+    setTimeout(function(){
+      $("#2DOD").removeClass("blackclicked");
+      } ,200);
+    });
+
+
+  $("#2DOD").click(function(){
+      ion.sound.play("205");
+      });
+
+  $("#2RE").click(function(){
+      ion.sound.play("210");
+      });
+
+  $("#2RED").click(function(){
+      ion.sound.play("215");
+      });
+
+  $("#2MI").click(function(){
+      ion.sound.play("220");
+      });
